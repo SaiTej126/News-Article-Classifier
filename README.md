@@ -12,49 +12,35 @@ News-Article-Classifier/
 │── README.md            # Project documentation
 
 
-⚙️ Features
+⚙️ Features :
 
 Preprocesses raw text (cleaning, tokenization, TF-IDF vectorization).
-
 Classifies news into 4 categories: World, Sports, Business, Science.
-
 Simple Streamlit web app for user interaction.
-
 Achieves 88% accuracy using Logistic Regression.
 
-📊 Model Training
+📊 Model Training :
 
 Used TF-IDF vectorization for feature extraction.
-
 Trained multiple models: Logistic Regression, SGD Classifier, Decision Tree, Naive Bayes, and SVM.
-
 Logistic Regression achieved the best accuracy (88.12%), and was chosen for deployment.
 
-
-🚀 Future Enhancements
+🚀 Future Enhancements :
 
 Add more categories (e.g., Technology, Entertainment, Politics).
-
 Train deep learning models (LSTMs / Transformers).
-
 Deploy on cloud platforms (Heroku, AWS, GCP).
 
 
-Requirements
+Requirements :
 
 Python 3.9+
-
 Streamlit
-
 Scikit-learn
-
 NLTK
-
 Pandas, NumPy
 
 
 
 Author
-
-Developed by Sai Teja
- ✨
+   Developed by Sai Teja ✨
