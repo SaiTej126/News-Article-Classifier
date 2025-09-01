@@ -15,8 +15,11 @@ News-Article-Classifier/
 ⚙️ Features :
 
 Preprocesses raw text (cleaning, tokenization, TF-IDF vectorization).
+
 Classifies news into 4 categories: World, Sports, Business, Science.
+
 Simple Streamlit web app for user interaction.
+
 Achieves 88% accuracy using Logistic Regression.
 
 📊 Model Training :
