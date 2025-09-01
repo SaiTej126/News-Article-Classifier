@@ -22,25 +22,35 @@ Simple Streamlit web app for user interaction.
 
 Achieves 88% accuracy using Logistic Regression.
 
+
 📊 Model Training :
 
 Used TF-IDF vectorization for feature extraction.
+
 Trained multiple models: Logistic Regression, SGD Classifier, Decision Tree, Naive Bayes, and SVM.
+
 Logistic Regression achieved the best accuracy (88.12%), and was chosen for deployment.
+
 
 🚀 Future Enhancements :
 
 Add more categories (e.g., Technology, Entertainment, Politics).
+
 Train deep learning models (LSTMs / Transformers).
+
 Deploy on cloud platforms (Heroku, AWS, GCP).
 
 
 Requirements :
 
 Python 3.9+
+
 Streamlit
+
 Scikit-learn
+
 NLTK
+
 Pandas, NumPy
 
 
