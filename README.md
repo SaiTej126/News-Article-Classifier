@@ -1,59 +1,64 @@
-📰 News Article Classifier
+📰 News Classification using NLP
 
-The News Article Classifier is a machine learning project that automatically classifies news articles into categories such as World, Sports, Business, and Science.
-It uses Natural Language Processing (NLP) techniques and a trained Logistic Regression model (88% accuracy) to analyze and categorize text.
+📘 Project Overview
 
-📂 Project Structure
-News-Article-Classifier/
-│── app.py               # Streamlit app for user interface
-│── svm_nlp.pkl        # Trained ML model
-│── vectorizer_svm.pkl       # TF-IDF vectorizer
-│── requirements.txt     # Required dependencies
-│── README.md            # Project documentation
+This project focuses on automated news classification using Natural Language Processing (NLP) and Machine Learning. It analyzes text data to categorize news articles into predefined topics, leveraging preprocessing, feature extraction, and model training to achieve high accuracy.
 
+⚙️ Features
 
-⚙️ Features :
+  1. Preprocesses raw text (cleaning, tokenization, TF-IDF vectorization).
 
-Preprocesses raw text (cleaning, tokenization, TF-IDF vectorization).
+  2. Classifies news into 4 categories: World, Sports, Business, Science.
 
-Classifies news into 4 categories: World, Sports, Business, Science.
+  3. Simple Streamlit web app for interactive classification.
 
-Simple Streamlit web app for user interaction.
+  4. Achieves 88% accuracy using SVM.
 
-Achieves 88% accuracy using Logistic Regression.
+🧠 Objective
 
+To build a machine learning model that accurately classifies news articles based on textual content using TF-IDF and multiple NLP algorithms.
 
-📊 Model Training :
+🔄 Workflow
 
-Used TF-IDF vectorization for feature extraction.
+  1. Data Preprocessing: Tokenization, stopword removal, lemmatization.
 
-Trained multiple models: Logistic Regression, SGD Classifier, Decision Tree, Naive Bayes, and SVM.
+  2. Feature Extraction: TF-IDF vectorization converts text into numerical features.
 
-Logistic Regression achieved the best accuracy (88.12%), and was chosen for deployment.
+  3. Model Training: Implemented Logistic Regression, SVM, Naive Bayes, Decision Tree, and SGD Classifier.
 
+  4.Evaluation: Compared models and selected the best performing one (SVM).
 
-🚀 Future Enhancements :
+📊 Model Performance
 
-Add more categories (e.g., Technology, Entertainment, Politics).
-
-Train deep learning models (LSTMs / Transformers).
-
-Deploy on cloud platforms (Heroku, AWS, GCP).
+| Model               | Accuracy (%) |
+|----------------------|--------------|
+| Logistic Regression  | 87.59%       |
+| SGD Classifier       | 87.86%       |
+| Decision Tree        | 72.88%       |
+| Naive Bayes          | 85.34%       |
+| SVM Classifier       | **87.92%**   |
 
 
-Requirements :
+🧩 Tech Stack
 
-Python 3.9+
+  1. Language: Python
 
-Streamlit
+  2. Libraries: NumPy, Pandas, Scikit-learn, NLTK, Matplotlib, Streamlit
 
-Scikit-learn
+  3. Techniques: TF-IDF Vectorization, Lemmatization, Stopword Removal
 
-NLTK
-
-Pandas, NumPy
+  4. Algorithms: SVM, Logistic Regression, Naive Bayes, Decision Tree
 
 
+📈 Results
 
-Author
-   Developed by Sai Teja ✨
+The SVM Classifier achieved 88% accuracy in categorizing news into 4 major categories.
+This project demonstrates the effectiveness of classical NLP and ML pipelines for real-world text classification tasks.
+
+🚀 Future Work
+
+Integrate deep learning models (LSTM / BERT).
+
+Expand dataset for multilingual news sources.
+
+Deploy Streamlit app on cloud (Streamlit Cloud / Hugging Face).
